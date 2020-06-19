@@ -1,7 +1,7 @@
 {
     "name": "davidcb/laravel-esendex",
-    "description": "Laravel 5 wrapper for Esendex",
-    "keywords": ["laravel", "laravel5", "esendex", "integration", "sms"],
+    "description": "Laravel wrapper for Esendex",
+    "keywords": ["laravel", "esendex", "integration", "sms"],
 	"license": "MIT",
     "authors": [
         {
@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0",
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0",
         "esendex/sdk": "2.*.*"
     },
     "autoload": {
