@@ -1,33 +1,38 @@
 {
-    "name": "davidcb/laravel-esendex",
-    "description": "Laravel wrapper for Esendex",
-    "keywords": ["laravel", "esendex", "integration", "sms"],
-	"license": "MIT",
-    "authors": [
-        {
-            "name": "David Couto",
-            "email": "davidcouto@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.2.5",
-        "illuminate/support": "^6.0",
-        "esendex/sdk": "2.*.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Davidcb\\LaravelEsendex": "src/"
-        }
-    },
-    "minimum-stability": "dev",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Davidcb\\LaravelEsendex\\LaravelEsendexServiceProvider"
-            ],
-            "aliases": {
-                "LaravelEsendex": "Davidcb\\LaravelEsendex\\Facades\\LaravelEsendex"
-            }
-        }
+  "name": "davidcb/laravel-esendex",
+  "description": "Laravel wrapper for Esendex",
+  "keywords": [
+    "laravel",
+    "esendex",
+    "integration",
+    "sms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Couto",
+      "email": "davidcouto@gmail.com"
     }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "illuminate/support": "^7.0",
+    "esendex/sdk": "2.*.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Davidcb\\LaravelEsendex": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Davidcb\\LaravelEsendex\\LaravelEsendexServiceProvider"
+      ],
+      "aliases": {
+        "LaravelEsendex": "Davidcb\\LaravelEsendex\\Facades\\LaravelEsendex"
+      }
+    }
+  }
 }
