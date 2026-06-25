@@ -2,11 +2,11 @@
 
 namespace Davidcb\LaravelEsendex;
 
+use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-class LaravelEsendexServiceProvider extends ServiceProvider
+class LaravelEsendexServiceProvider extends ServiceProvider implements DeferrableProvider
 {
-    protected $defer = true;
 
     public function boot()
     {
